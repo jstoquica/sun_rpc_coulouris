@@ -18,6 +18,6 @@ a.f = 10;
 a.position = 100;
 a.length = 1000;
 data = read_2(&a, clientHandle);/* call to remote read procedure */
-•••
+/*...*/
 clnt_destroy(clientHandle); /* closes socket */
 }
